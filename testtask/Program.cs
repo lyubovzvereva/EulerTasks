@@ -7,9 +7,17 @@ namespace testtask
     {
         static void Main(string[] args)
         {
-            Task12Test();
+            Task17Test();
         }
         #region tasks test
+
+        private static void Task17Test()
+        {
+            Task17 task = new Task17();
+            Console.WriteLine(task.CalculateCharacters());
+            Console.ReadLine();
+        }
+
 
         private static void Task12Test()
         {

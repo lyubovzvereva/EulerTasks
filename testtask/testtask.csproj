@@ -50,6 +50,7 @@
     <Compile Include="Task11.cs" />
     <Compile Include="Task12.cs" />
     <Compile Include="Task13.cs" />
+    <Compile Include="Task17.cs" />
     <Compile Include="Task1SumOfMultiplesOf3And5Below1000.cs" />
     <Compile Include="Task2SumOfEvenNumberOfFibonachiBelowX.cs" />
     <Compile Include="Task4ProductsPalindrom.cs" />
