@@ -55,7 +55,9 @@
     <Compile Include="Task16.cs" />
     <Compile Include="Task17.cs" />
     <Compile Include="Task18.cs" />
+    <Compile Include="Task19.cs" />
     <Compile Include="Task1SumOfMultiplesOf3And5Below1000.cs" />
+    <Compile Include="Task20.cs" />
     <Compile Include="Task2SumOfEvenNumberOfFibonachiBelowX.cs" />
     <Compile Include="Task4ProductsPalindrom.cs" />
     <Compile Include="Task3PrimeFactors.cs" />

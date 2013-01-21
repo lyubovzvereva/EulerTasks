@@ -7,9 +7,16 @@ namespace testtask
     {
         static void Main(string[] args)
         {
-            Task17Test();
+            Task19Test();
         }
         #region tasks test
+
+        private static void Task19Test()
+        {
+            Task19 task = new Task19();
+            Console.WriteLine(task.FindCountOfFirstSundays());
+            Console.ReadLine();
+        }
 
         private static void Task17Test()
         {
