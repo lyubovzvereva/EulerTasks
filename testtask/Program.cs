@@ -16,7 +16,6 @@ namespace testtask
         {
             Task20 task = new Task20(100);
             Console.WriteLine(task.FindSumOfFactorial());
-            //var result = task.Multiple(new List<byte> { 4, 5, 6, 7, 1, 5, 5, 6, 7, 1 }, new List<byte> { 8, 9, 7, 4, 3, 3, 5, 6, 7, 1 });
             Console.ReadLine();
         }
 

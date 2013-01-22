@@ -34,7 +34,7 @@ namespace testtask
             return result;
         }
 
-        public List<byte> Multiple(List<byte> first, List<byte> second)
+        private List<byte> Multiple(List<byte> first, List<byte> second)
         {
             List<List<byte>> subSums = new List<List<byte>>();
             for (int i = 0; i < second.Count; i++)
@@ -80,6 +80,11 @@ namespace testtask
                 }
                 result.Add((byte)(sum % 10));
                 temp = (int)Math.Floor((decimal)(sum / 10));
+            }
+            while (temp > 0)
+            {
+                result.Add((byte)(temp % 10));
+                temp = (int)Math.Floor((decimal)(temp / 10));
             }
             return result;
         }
