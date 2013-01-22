@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace testtask
 {
@@ -7,9 +8,18 @@ namespace testtask
     {
         static void Main(string[] args)
         {
-            Task19Test();
+            Task20Test();
         }
         #region tasks test
+
+        private static void Task20Test()
+        {
+            Task20 task = new Task20(100);
+            Console.WriteLine(task.FindSumOfFactorial());
+            //var result = task.Multiple(new List<byte> { 4, 5, 6, 7, 1, 5, 5, 6, 7, 1 }, new List<byte> { 8, 9, 7, 4, 3, 3, 5, 6, 7, 1 });
+            Console.ReadLine();
+        }
+
 
         private static void Task19Test()
         {
