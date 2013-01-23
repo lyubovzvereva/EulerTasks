@@ -103,12 +103,10 @@ namespace testtask
                 int sumLeft = devisors[j].Sum();
                 proceeded[j] = true;
                 if (sumLeft > border) continue;
-                proceeded[sumLeft] = true;
                 int sumRight = devisors[sumLeft].Sum();
-                if(j==sumRight && j!=sumLeft)
-                {
-                    sum+=j+sumLeft;
-                }
+                if (j != sumRight || j == sumLeft) continue;
+                proceeded[sumLeft] = true;
+                sum+=j+sumLeft;
             }
             return sum;
         }
