@@ -59,6 +59,7 @@
     <Compile Include="Task1SumOfMultiplesOf3And5Below1000.cs" />
     <Compile Include="Task20.cs" />
     <Compile Include="Task21.cs" />
+    <Compile Include="Task22.cs" />
     <Compile Include="Task2SumOfEvenNumberOfFibonachiBelowX.cs" />
     <Compile Include="Task4ProductsPalindrom.cs" />
     <Compile Include="Task3PrimeFactors.cs" />
@@ -80,6 +81,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="task18.txt" />
+    <Content Include="task22.txt" />
     <Content Include="triangle.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
