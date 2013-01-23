@@ -96,17 +96,23 @@ namespace testtask
         public int FindAmicable()
         {
             FillDevisors();
-            devisors.Add(1, new List<int> {1});
-            for(int j=2;j<=border;j++)
+            devisors.Add(1, new List<int> ());
+            for (int j = 2; j <= border; j++)
             {
-                if (proceeded[j]) continue;
-                int sumLeft = devisors[j].Sum();
-                proceeded[j] = true;
-                if (sumLeft > border) continue;
-                int sumRight = devisors[sumLeft].Sum();
-                if (j != sumRight || j == sumLeft) continue;
-                proceeded[sumLeft] = true;
-                sum+=j+sumLeft;
+                if (!proceeded[j])
+                {
+                    int sumLeft = devisors[j].Sum();
+                    proceeded[j] = true;
+                    if (sumLeft <= border)
+                    {
+                        int sumRight = devisors[sumLeft].Sum();
+                        if (j == sumRight && j != sumLeft)
+                        {
+                            proceeded[sumLeft] = true;
+                            sum += j + sumLeft;
+                        }
+                    }
+                }
             }
             return sum;
         }
