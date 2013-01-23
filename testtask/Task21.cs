@@ -7,6 +7,7 @@ namespace testtask
 {
     class Task21
     {
+        //31626
         private int border;
         private int sum = 0;
         private Dictionary<int, List<int>> devisors = new Dictionary<int, List<int>>();
@@ -123,13 +124,13 @@ namespace testtask
             {
                 if (numbers[i]) continue;
                 FillDevisors(i);
-                foreach(int multiple in primes)
-                {
-                    int temp = i*multiple;
-                    if (temp >= border) break;
+                //foreach(int multiple in primes)
+                //{
+                //    int temp = i*multiple;
+                //    if (temp >= border) break;
 
-                    FillFromPrevious(temp, multiple);
-                }
+                //    FillFromPrevious(temp, multiple);
+                //}
             }
         }
         private void FillFromPrevious(int n, int multiple)
