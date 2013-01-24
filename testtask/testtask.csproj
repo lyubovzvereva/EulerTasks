@@ -81,7 +81,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="task18.txt" />
-    <Content Include="task22.txt" />
+    <Content Include="task22.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="triangle.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -8,9 +8,17 @@ namespace testtask
     {
         static void Main(string[] args)
         {
-            Task21Test();
+            Task22Test();
         }
         #region tasks test
+
+        private static void Task22Test()
+        {
+            Task22 task = new Task22();
+            Console.WriteLine(task.CalculateValues());
+
+            Console.ReadLine();
+        }
 
         private static void Task21Test()
         {
