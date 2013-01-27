@@ -8,9 +8,16 @@ namespace testtask
     {
         static void Main(string[] args)
         {
-            Task22Test();
+            Task25Test();
         }
         #region tasks test
+
+        public static void Task25Test()
+        {
+            Task25 task = new Task25(1000);
+            Console.WriteLine(task.FindFibonachiNumber());
+            Console.ReadLine();
+        }
 
         private static void Task22Test()
         {
