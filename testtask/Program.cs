@@ -8,9 +8,14 @@ namespace testtask
     {
         static void Main(string[] args)
         {
-            Task25Test();
+            Task28Test();
         }
         #region tasks test
+
+        public static void Task28Test()
+        {
+            Task28 task = new Task28(5);
+        }
 
         public static void Task25Test()
         {
