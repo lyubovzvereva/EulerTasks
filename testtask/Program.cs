@@ -14,7 +14,9 @@ namespace testtask
 
         public static void Task28Test()
         {
-            Task28 task = new Task28(5);
+            Task28 task = new Task28(1001);
+            Console.WriteLine(task.SumOfTheDiagonals());
+            Console.ReadLine();
         }
 
         public static void Task25Test()
