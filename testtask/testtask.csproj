@@ -63,6 +63,7 @@
     <Compile Include="Task25.cs" />
     <Compile Include="Task28.cs" />
     <Compile Include="Task2SumOfEvenNumberOfFibonachiBelowX.cs" />
+    <Compile Include="Task35.cs" />
     <Compile Include="Task4ProductsPalindrom.cs" />
     <Compile Include="Task3PrimeFactors.cs" />
     <Compile Include="Task5.cs" />
